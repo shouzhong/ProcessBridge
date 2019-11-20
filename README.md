@@ -98,7 +98,6 @@ clear | 清空
     <init>(java.lang.Throwable);
 }
 ```
-还有对自定义事件的混淆，因为用到gson
 
 ## 感谢
 [Xiaofei-it/HermesEventBus](https://github.com/Xiaofei-it/HermesEventBus)
