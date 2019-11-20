@@ -21,7 +21,10 @@ ProcessBridgeUtils.getSP()
 ```
 具体使用请[参考demo](https://github.com/shouzhong/ProcessBridge/tree/master/app/src/main/java/com/shouzhong/processbridge/demo)
 #### 自定义
-请[参考源码](https://github.com/shouzhong/ProcessBridge/tree/master/lib/src/main/java/com/shouzhong/processbridge)
+请参考源码
+[EventBus](https://github.com/shouzhong/ProcessBridge/tree/master/lib/src/main/java/com/shouzhong/processbridge/eventbus)
+[SharedPreferences](https://github.com/shouzhong/ProcessBridge/tree/master/lib/src/main/java/com/shouzhong/processbridge/sp)
+[ActivityManager](https://github.com/shouzhong/ProcessBridge/tree/master/lib/src/main/java/com/shouzhong/processbridge/activity)
 ### 方法说明
 
 ProcessBridgeUtils.getEventBus()
