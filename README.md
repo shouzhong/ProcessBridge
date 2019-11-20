@@ -21,7 +21,7 @@ ProcessBridgeUtils.getSP()
 ```
 具体使用请[参考demo](https://github.com/shouzhong/ProcessBridge/tree/master/app/src/main/java/com/shouzhong/processbridge/demo)
 #### 自定义
-请参考源码
+请[参考源码](https://github.com/shouzhong/ProcessBridge/tree/master/lib/src/main/java/com/shouzhong/processbridge)
 ### 方法说明
 
 ProcessBridgeUtils.getEventBus()
