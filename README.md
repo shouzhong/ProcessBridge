@@ -75,7 +75,7 @@ remove | 删除
 clear | 清空
 
 ## 注意事项
-1. 如果在子进程刚启动时在主线程调有返回值的方法，线程会锁住卡死，建议有这种操作的在子线程中调用
+1. 如果在子进程刚启动时在主线程调有返回值的方法，主线程会锁住卡死，建议有这种操作的在子线程中调用
 2. 对于EventBus的粘滞事件，请重写equals，确保调用removeStickyEvent(Object)时能真正移除，当然如果不想重写equals，那建议调用removeStickyEvent(Class)移除
 3. 对于EventBus建议尽量少用或者不用带泛型事件，可能会有bug
 
