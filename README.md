@@ -87,7 +87,18 @@ clear | 清空
 ```
 -keep class com.shouzhong.** {*;}
 -dontwarn com.shouzhong.**
+-keepattributes *Annotation*
+-keepclassmembers class * {
+    @org.greenrobot.eventbus.Subscribe <methods>;
+}
+-keep enum org.greenrobot.eventbus.ThreadMode { *; }
+
+# Only required if you use AsyncExecutor
+-keepclassmembers class * extends org.greenrobot.eventbus.util.ThrowableFailureEvent {
+    <init>(java.lang.Throwable);
+}
 ```
+还有对自定义事件的混淆，因为用到gson
 
 ## 感谢
 [Xiaofei-it/HermesEventBus](https://github.com/Xiaofei-it/HermesEventBus)
